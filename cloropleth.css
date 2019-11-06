@@ -1,0 +1,41 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+h1 {
+  font-family:arial;
+  font-size:2em;
+  color:#333;
+}
+#info {
+  position:absolute;
+  top: 10px;
+  left: 10px;
+}
+.county {
+	stroke: #fff;
+  stroke-opacity: .1;
+	stroke-width:2px;
+}
+.county:hover {
+	fill: #7a2002;
+}
+
+.state {
+  stroke: white;
+  fill: none;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 5px;
+  background: #7a2002;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+}
